@@ -1,0 +1,39 @@
+.msg-list-container {
+    width: 80%;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 20px 0;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .msg-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .msg-list-container li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #1b2710;
+    text-align: left;
+  }
+  
+  .server-response {
+    background-color: #030405;
+    text-align: right;
+  }
+
+  .header {
+
+  }
+  
